@@ -1,0 +1,24 @@
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url('../../assets/fon1920.png') no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1366px) {
+  .mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/fon1366.png') no-repeat center;
+  }
+}
+@media (max-width: 360px) {
+  .mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/fon360.png') no-repeat center;
+  }
+}

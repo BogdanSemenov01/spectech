@@ -1,0 +1,43 @@
+@import '../../styles/globals';
+
+.wrapper {
+  width: calc(516 - 86)px;
+  height: 608px;
+  border-radius: 20px;
+  background-color: $color-white;
+  box-shadow: $shadow;
+  padding: 0 86px;
+}
+
+.logo {
+  margin-top: 56px;
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+@media (max-width: 1366px) {
+  .wrapper {
+    width: calc(411 - 34)px;
+    height: 504px;
+    padding: 0 34px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+}
+@media (max-width: 360px) {
+  .wrapper {
+    width: calc(343 - 11)px;
+    height: 504px;
+    padding: 0 11px;
+  }
+  .logo {
+    margin-top: 0;
+  }
+
+}
